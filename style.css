@@ -300,3 +300,21 @@ body {
     font-size: 1.2rem; /* Ukuran font yang sesuai untuk teks */
   }
 }
+
+@media (max-width: 480px) {
+  .simply-countdown > .simply-section {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .simply-countdown > .simply-section .simply-amount,
+  .simply-countdown > .simply-section .simply-word {
+    font-size: 0.7rem;
+  }
+  h4,
+  h1,
+  p {
+    font-size: 10px;
+  }
+}
