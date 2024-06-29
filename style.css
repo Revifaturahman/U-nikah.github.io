@@ -273,48 +273,10 @@ body {
   }
 }
 
-/* mobile */
-@media (max-width: 576px) {
-  /* Penyesuaian untuk lingkaran jam atau elemen khusus lainnya */
-  .simply-countdown {
-    text-align: center; /* Misalnya, untuk mengatur posisi tengah */
-  }
-
-  /* Penyesuaian untuk side navbar */
-  .mynavbar .offcanvas-body {
-    margin-right: auto;
-  }
-
-  /* Penyesuaian untuk navigasi halaman */
-  .home h2,
-  .info h2,
-  .story h2,
-  .gallery h2 {
-    font-size: 4rem; /* Ukuran font yang sesuai untuk judul halaman */
-  }
-
-  .home p,
-  .info .description,
-  .story h3,
-  .gallery h3 {
-    font-size: 1.2rem; /* Ukuran font yang sesuai untuk teks */
-  }
-}
+/* Hp */
 
 @media (max-width: 480px) {
-  .simply-countdown > .simply-section {
-    width: 30px;
-    height: 30px;
-    padding: 5px;
-    margin: 5px;
-  }
-  .simply-countdown > .simply-section .simply-amount,
-  .simply-countdown > .simply-section .simply-word {
-    font-size: 0.7rem;
-  }
-  h4,
-  h1,
-  p {
-    font-size: 10px;
+  .mynavbar .offcanvas {
+    width: 170px;
   }
 }
