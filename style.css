@@ -94,7 +94,6 @@ body {
   background-image: url(img/bg-floral1.png);
   background-size: cover;
   min-height: 100vh;
-  margin-top: -6rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
   overflow: hidden;
@@ -273,30 +272,10 @@ body {
   }
 }
 
-/* mobile */
-@media (max-width: 576px) {
-  /* Penyesuaian untuk lingkaran jam atau elemen khusus lainnya */
-  .simply-countdown {
-    text-align: center; /* Misalnya, untuk mengatur posisi tengah */
-  }
+/* Hp */
 
-  /* Penyesuaian untuk side navbar */
-  .mynavbar .offcanvas-body {
-    margin-right: auto;
-  }
-
-  /* Penyesuaian untuk navigasi halaman */
-  .home h2,
-  .info h2,
-  .story h2,
-  .gallery h2 {
-    font-size: 4rem; /* Ukuran font yang sesuai untuk judul halaman */
-  }
-
-  .home p,
-  .info .description,
-  .story h3,
-  .gallery h3 {
-    font-size: 1.2rem; /* Ukuran font yang sesuai untuk teks */
+@media (max-width: 480px) {
+  .mynavbar .offcanvas {
+    width: 170px;
   }
 }
