@@ -204,9 +204,11 @@ body {
   bottom: 0;
   z-index: 0;
 }
+
 .str {
   position: relative;
 }
+
 .card-container {
   position: relative;
   width: 50%;
@@ -269,6 +271,9 @@ body {
   .card-story {
     width: 80%;
     height: 80%;
+  }
+  .timeline {
+    height: 1800px !important;
   }
 }
 
